@@ -14,7 +14,7 @@ import java.time.format.DateTimeFormatter;
 @RequiredArgsConstructor
 public class StageOneServiceImpl implements StageOneService{
 
-    private final static String GITHUB_FILE_URL = "";
+    private final static String GITHUB_FILE_URL = "https://github.com/Alash95/hng_stage_one/blob/master/src/main/java/com/alash/hng_stage_one/HngStageOneApplication.java";
     private final static String GITHUB_REPO_URL = "https://github.com/Alash95/hng_stage_one.git";
 
     @Override
