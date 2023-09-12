@@ -1,4 +1,4 @@
-package com.HNGX.HngStageOne.dto.request;
+package com.alash.hng_stage_one.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

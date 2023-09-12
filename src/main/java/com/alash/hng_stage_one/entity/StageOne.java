@@ -1,10 +1,7 @@
-package com.HNGX.HngStageOne.entity;
+package com.alash.hng_stage_one.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-
-import java.time.LocalDateTime;
-import java.time.LocalTime;
 
 @AllArgsConstructor
 @NoArgsConstructor

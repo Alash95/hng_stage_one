@@ -1,8 +1,8 @@
-package com.HNGX.HngStageOne.service;
+package com.alash.hng_stage_one.service;
 
-import com.HNGX.HngStageOne.dto.request.StageOneRequest;
-import com.HNGX.HngStageOne.dto.response.StageOneResponse;
+
+import com.alash.hng_stage_one.dto.response.StageOneResponse;
 
 public interface StageOneService {
-    StageOneResponse GetData(String slackName,String track);
+    StageOneResponse GetData(String slackName, String track);
 }

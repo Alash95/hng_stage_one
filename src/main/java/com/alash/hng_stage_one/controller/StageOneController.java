@@ -1,10 +1,12 @@
-package com.HNGX.HngStageOne.controller;
+package com.alash.hng_stage_one.controller;
 
-import com.HNGX.HngStageOne.dto.request.StageOneRequest;
-import com.HNGX.HngStageOne.dto.response.StageOneResponse;
-import com.HNGX.HngStageOne.service.StageOneService;
+import com.alash.hng_stage_one.dto.response.StageOneResponse;
+import com.alash.hng_stage_one.service.StageOneService;
 import lombok.AllArgsConstructor;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("api")

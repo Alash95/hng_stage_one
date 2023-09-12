@@ -1,19 +1,21 @@
-package com.HNGX.HngStageOne.service;
+package com.alash.hng_stage_one.service;
 
-import com.HNGX.HngStageOne.dto.response.StageOneResponse;
+import com.alash.hng_stage_one.dto.response.StageOneResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
-import java.time.*;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 
 @Service
 @RequiredArgsConstructor
 public class StageOneServiceImpl implements StageOneService{
 
-    private final static String GITHUB_FILE_URL = "https://github.com/vhee4/HNGx_internship/blob/master/src/main/java/com/HNGX/HngStageOne/HngStageOneApplication.java";
-    private final static String GITHUB_REPO_URL = "https://github.com/vhee4/HNGx_internship.git";
+    private final static String GITHUB_FILE_URL = "";
+    private final static String GITHUB_REPO_URL = "https://github.com/Alash95/hng_stage_one.git";
 
     @Override
     public StageOneResponse GetData(String slackName, String track) {LocalDateTime localDateTime = LocalDateTime.now(ZoneOffset.UTC);
